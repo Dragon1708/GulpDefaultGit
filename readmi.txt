@@ -1,0 +1,2 @@
+В package.json поменять номера версий на latest
+ ("gulp-ttf2woff2": "latest", )
