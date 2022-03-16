@@ -6,6 +6,7 @@ const srcFolder='./src'
 
 export const path={
     build:{
+        JavaScript: `${buildFolder}/JavaScript/`,
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
         files: `${buildFolder}/files/`,
@@ -13,6 +14,7 @@ export const path={
         images: `${buildFolder}/img/`
     },
     src:{
+        JavaScript: `${srcFolder}/JavaScript/app.js`,
         scss: `${srcFolder}/scss/style.scss`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         html: `${srcFolder}/*.html`,
@@ -20,6 +22,7 @@ export const path={
         files: `${srcFolder}/files/**/*.*`
     },
     watch:{
+        JavaScript: `${srcFolder}/JavaScript/**/*.js`,
         scss: `${srcFolder}/scss/**/*.scss`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         html: `${srcFolder}/**/*.html`,

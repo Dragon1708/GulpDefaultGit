@@ -1,0 +1,28 @@
+
+nav{
+    background-color: rgb(236, 43, 43);
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.logo{
+    a{
+        color: black;
+    }
+}
+.menu{
+    display: flex;
+
+    &__item{
+margin-left: 25px;
+    }
+
+    
+}

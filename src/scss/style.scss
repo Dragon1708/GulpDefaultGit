@@ -1,8 +1,40 @@
 @import "fonts";
+@import "zeroStyle2";
 
-$fontName: Montserrat;
+@import "header";
+
+
+$TitlefontName: Manrope;
+$miniFontName: Open Sans;
+
+$containerWidth: 1200;
+$containerPadding:40;
+$containerSidePadding: 20;
+$breakpoint992:991.98+px;
+$breakpoint768:767.98+px;
+$breakpoint480:479.98+px;
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+padding: 0 $containerSidePadding+px;
+
+  @media (min-width: $breakpoint992) {
+    max-width:970px;
+  }
+  
+  @media (min-width: $breakpoint768) {
+    max-width:750px;
+  }
+
+  @media (min-width: $breakpoint480) {
+    max-width: none;
+  }
+}
+
 body{
-  font-family: $fontName;
+  font-family: $TitlefontName;
   font-size: 24px;
     background-color: aqua;
 }
